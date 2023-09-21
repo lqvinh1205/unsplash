@@ -1,8 +1,15 @@
 import { Link, Outlet } from "react-router-dom";
+import { Helmet } from "react-helmet";
+import unsplashLogo from "../assets/logo.svg";
 
 const Layout = () => {
   return (
     <div>
+      <Helmet>
+        <title>Unsplash</title>
+        <meta name="description" content="Unsplash application" />
+        <link rel="icon" href={unsplashLogo} />
+      </Helmet>
       <nav>
         <ul>
           <li>
