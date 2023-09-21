@@ -1,8 +1,8 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Layout from "./layout";
-import HomePages from "./feature/homePages";
-import NoMatch from "./feature/noMatch";
+import HomePages from "./features/homePage";
+import NoMatch from "./features/noMatch";
 
 function App() {
   return (

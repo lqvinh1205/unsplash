@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import unsplashLogo from "../assets/logo.svg";
+import Header from "../components/header";
 
 const Layout = () => {
   return (
@@ -10,6 +11,9 @@ const Layout = () => {
         <meta name="description" content="Unsplash application" />
         <link rel="icon" href={unsplashLogo} />
       </Helmet>
+      <div>
+        <Header />
+      </div>
       <nav>
         <ul>
           <li>
